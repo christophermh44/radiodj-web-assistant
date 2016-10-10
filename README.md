@@ -1,4 +1,4 @@
-# RadioDJ Web Assistant
+# RadioDJ Web Assistant (beta)
 
 ## Presentation
 
