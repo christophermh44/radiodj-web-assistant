@@ -1,0 +1,12 @@
+CONDUCTEUR
+==========
+
+## TODO
+
++ export Conducteur and Messages into custom Intranet
+
+## To Improve
+
+- Conducteur cannot build a guide with respecting repeat rules, because RadioDJ choose songs in real time.
+- Conducteur cannot currently apply repeat rules on songs that could have been added in the playlist with events.
+- > So LRP and MRP cannot be implemented.
