@@ -460,9 +460,9 @@ var audioEditor = conducteur.controller('audioEditor', function($scope, $http) {
 
 var queryEditor = conducteur.controller('queryEditor', function($scope, $http) {
 	$scope.modes = {
-		'random': {
+		/* 'random': {
 			label: window.TR('Random pick')
-		},
+		}, */
 		'priority': {
 			label: window.TR('By priority')
 		},
