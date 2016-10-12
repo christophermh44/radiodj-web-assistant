@@ -22,7 +22,7 @@ if (isset($_GET['code'])) {
 				<p class="form-control">
 					<label for="language"><?= T::ranslate('Language') ?></label>
 					<select name="language" id="language">
-						<?php foreach (Data::list('languages') as $key => $value) { ?>
+						<?php foreach (Data::listFrom('languages') as $key => $value) { ?>
 							<option value="<?= $key ?>" <?= Conf::get('language') == $key ? 'selected="selected"' : '' ?>><?= $key ?></option>
 						<?php } ?>
 					</select>
