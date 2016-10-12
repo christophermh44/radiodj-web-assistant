@@ -5,7 +5,7 @@ class Guides {
 	private static $q;
 
 	public static function static_init() {
-		self::$guides = Data::list('guides');
+		self::$guides = Data::listFrom('guides');
 		self::$q = Query::getInstance();
 	}
 
