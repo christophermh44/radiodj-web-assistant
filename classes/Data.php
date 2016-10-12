@@ -11,7 +11,7 @@ class Data {
 		file_put_contents(__DIR__.'/../data/'.$file.'.json', json_encode($contents));
 	}
 
-	public static function list($folder) {
+	public static function listFrom($folder) {
 		$path = __DIR__.'/../data/'.$folder.'/';
 		$files = array_diff(scandir($path), ['.', '..']);
 		$list = [];
