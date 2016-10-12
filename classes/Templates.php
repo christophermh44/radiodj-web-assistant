@@ -4,7 +4,7 @@ class Templates {
 	private static $templates;
 
 	public static function static_init() {
-		self::$templates = Data::list('templates');
+		self::$templates = Data::listFrom('templates');
 	}
 
 	public static function getList($limit = null) {
